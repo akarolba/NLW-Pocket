@@ -1,2 +1,3 @@
 // Hello World
-console.log(`Olá eu sou "Rodrigo" ''`)
+let mensagem = "Olá mundo!"
+console.log(mensagem)
