@@ -1,17 +1,9 @@
-// Hello World
-let mensagem = "Olá mundo!"
-console.log(mensagem)
-
-// arrays, objetos
-
-let metas = ["Karol, hello"]
-
-console.log(metas[1] + "," + metas [0])
-
-// objeto
-
-let meta = {
-  value: 'ler um livro por mês',
-  checked: false
+const start = () => {
+  let count = 1
+  while(count <= 10){
+    console.log(count)
+    count = count + 1
+  }
 }
 
+start()
